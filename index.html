@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Setia Motor — bengkel mobil di Perbutulan, Kec. Sumber, Kabupaten Cirebon. Rating 4.8 dari 40 ulasan Google.">
+<title>Setia Motor — Bengkel Mobil Cirebon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#">SETIA <i>MOTOR</i><span>Bengkel Mobil</span></a>
+  <nav><a href="#diagnosa">Diagnosa</a><a href="#layanan">Layanan</a><a href="#galeri">Galeri</a><a href="#booking">Booking</a><a href="#lokasi">Lokasi</a></nav>
+  <a class="nav-cta" href="https://wa.me/62881023541340?text=Halo%20Setia%20Motor%2C%20saya%20ingin%20servis%20mobil." target="_blank" rel="noopener">WhatsApp <span>↗</span></a>
+</header>
+
+<main>
+
+<section class="hero" style="background-image:linear-gradient(180deg, rgba(15,18,20,.4), rgba(15,18,20,.65) 55%, rgba(15,18,20,.96)), url('assets/setia-motor-storefront.webp')">
+  <div class="hero-status">
+    <span class="dot"></span> BUKA HARI INI &middot; TUTUP PUKUL 16.30
+  </div>
+  <h1>SETIA.<br><i>Sejak pertama servis.</i></h1>
+  <p class="hero-desc">Bengkel mobil di Perbutulan, Kec. Sumber, Cirebon &mdash; dipercaya pelanggan untuk servis rutin sampai perbaikan berat, dengan mekanik yang jujur soal kondisi mobil kamu.</p>
+
+  <div class="hero-bottom">
+    <div class="gauge-card">
+      <svg viewBox="0 0 200 120" class="gauge">
+        <path d="M15 105 A85 85 0 0 1 185 105" fill="none" stroke="#2a2f36" stroke-width="14" stroke-linecap="round"/>
+        <path d="M15 105 A85 85 0 0 1 185 105" fill="none" stroke="#e11d2e" stroke-width="14" stroke-linecap="round" stroke-dasharray="267" stroke-dashoffset="14"/>
+        <line x1="100" y1="105" x2="163" y2="52" stroke="#f2ece0" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="100" cy="105" r="7" fill="#f2ece0"/>
+      </svg>
+      <div class="gauge-label"><b>4,8</b><span>dari 40 ulasan Google</span></div>
+    </div>
+    <div class="hero-cta">
+      <a class="btn-signal" href="https://wa.me/62881023541340?text=Halo%20Setia%20Motor%2C%20saya%20ingin%20servis%20mobil." target="_blank" rel="noopener">Chat via WhatsApp</a>
+      <a class="btn-outline" href="tel:088102354140">Telepon Bengkel</a>
+    </div>
+  </div>
+</section>
+
+<section id="ulasan" class="section trust">
+  <div class="section-meta"><span>KATA PELANGGAN</span><span>ULASAN GOOGLE ASLI</span></div>
+  <div class="stamp-row">
+    <div class="stamp"><b>AMANAH</b><p>&ldquo;Bengkel terbaik di cirebon, pelayanan ramah dan amanah&#128150;&rdquo;</p></div>
+    <div class="stamp"><b>RECOMMENDED</b><p>&ldquo;Servisnya mantap jiwa, karyawannya juga ramah-ramah, recommended buat servis deh.&rdquo;</p></div>
+    <div class="stamp"><b>SPAREPART LENGKAP</b><p>&ldquo;Sparepartnya komplit, service cepat, mekanik yang ahli di bidangnya.&rdquo;</p></div>
+  </div>
+  <div class="stat-strip">
+    <div class="stat"><b>4,8</b><span>Rating Google</span></div>
+    <div class="stat"><b>40+</b><span>Ulasan Pelanggan</span></div>
+    <div class="stat"><b>15</b><span>Jenis Layanan</span></div>
+  </div>
+</section>
+
+<section id="diagnosa" class="section diagnosa">
+  <div class="section-meta"><span>00 &mdash; DIAGNOSA CEPAT</span><span>PILIH KELUHAN MOBIL</span></div>
+  <h2>Bingung mobilnya<br><i>kenapa? Coba cek dulu.</i></h2>
+  <p class="diagnosa-desc">Pilih keluhan yang paling mirip, nanti muncul layanan yang biasanya dibutuhkan &mdash; lalu langsung chat mekanik kalau mau lanjut.</p>
+  <div class="symptom-grid" id="symptomGrid"></div>
+  <div class="diagnosa-result" id="diagnosaResult" hidden>
+    <span class="dr-label">KEMUNGKINAN LAYANAN</span>
+    <h3 id="drService"></h3>
+    <p id="drDesc"></p>
+    <a class="btn-signal" id="drChat" href="#" target="_blank" rel="noopener">Chat soal keluhan ini</a>
+  </div>
+</section>
+
+<section id="layanan" class="section layanan">
+  <div class="section-meta"><span>02 &mdash; LAYANAN</span><span>15 JENIS SERVIS</span></div>
+  <h2>Satu bengkel,<br><i>segala keluhan mobil.</i></h2>
+  <div class="ledger">
+    <div class="ledger-row"><span>01</span>Diagnostik mesin mobil</div>
+    <div class="ledger-row"><span>02</span>Kelistrikan mobil</div>
+    <div class="ledger-row"><span>03</span>Penggantian oli</div>
+    <div class="ledger-row"><span>04</span>Perbaikan rem</div>
+    <div class="ledger-row"><span>05</span>Reparasi suspensi &amp; setir</div>
+    <div class="ledger-row"><span>06</span>Pemasangan wiper blade</div>
+    <div class="ledger-row"><span>07</span>Pembersihan karburator</div>
+    <div class="ledger-row"><span>08</span>Pemeliharaan mobil</div>
+    <div class="ledger-row"><span>09</span>Pemeriksaan kendaraan</div>
+    <div class="ledger-row"><span>10</span>Penggantian baterai/aki</div>
+    <div class="ledger-row"><span>11</span>Penyetelan mesin otomatis</div>
+    <div class="ledger-row"><span>12</span>Reparasi kebocoran air</div>
+    <div class="ledger-row"><span>13</span>Reparasi mesin</div>
+    <div class="ledger-row"><span>14</span>Sistem pembuangan</div>
+    <div class="ledger-row"><span>15</span>Uji emisi mobil</div>
+  </div>
+</section>
+
+<section id="alur" class="section alur">
+  <div class="section-meta"><span>03 &mdash; ALUR SERVIS</span><span>DARI DATANG SAMPAI PULANG</span></div>
+  <h2>Nggak ada yang<br><i>ditutup-tutupi.</i></h2>
+  <div class="flow">
+    <div class="flow-step"><span>01</span><h3>Ceritakan keluhan</h3><p>Sampaikan gejala atau keluhan mobil ke mekanik saat datang atau lewat WhatsApp.</p></div>
+    <div class="flow-step"><span>02</span><h3>Diagnosa</h3><p>Mekanik cek kondisi mobil dan cari sumber masalahnya sebelum mengerjakan apa pun.</p></div>
+    <div class="flow-step"><span>03</span><h3>Info sebelum kerja</h3><p>Kamu diberi tahu dulu apa yang perlu dikerjakan, baru pengerjaan dimulai.</p></div>
+    <div class="flow-step"><span>04</span><h3>Pengerjaan</h3><p>Servis dikerjakan oleh mekanik yang menangani bidangnya masing-masing.</p></div>
+    <div class="flow-step"><span>05</span><h3>Cek ulang &amp; serah terima</h3><p>Hasil servis dicek ulang sebelum mobil diserahkan kembali ke kamu.</p></div>
+  </div>
+</section>
+
+<section id="galeri" class="section galeri">
+  <div class="section-meta"><span>05 &mdash; SUASANA BENGKEL</span><span>FOTO ASLI</span></div>
+  <h2>Bengkel yang<br><i>sebenarnya.</i></h2>
+  <div class="gallery-grid">
+    <figure class="g1"><img src="assets/setia-motor-interior-1.webp" alt="Ruang servis Setia Motor" loading="lazy"><figcaption>Ruang servis</figcaption></figure>
+    <figure class="g2"><img src="assets/setia-motor-interior-2.webp" alt="Beberapa mobil dalam antrian servis" loading="lazy"><figcaption>Antrian servis</figcaption></figure>
+    <figure class="g3"><img src="assets/setia-motor-garage-door.webp" alt="Pintu masuk bengkel Setia Motor" loading="lazy"><figcaption>Pintu masuk</figcaption></figure>
+  </div>
+</section>
+
+<section id="booking" class="section booking">
+  <div class="section-meta"><span>04 &mdash; BOOKING SERVIS</span><span>ISI, LALU KIRIM VIA WHATSAPP</span></div>
+  <h2>Isi kartu servis,<br><i>kami yang siapkan.</i></h2>
+  <p class="booking-desc">Nggak ada sistem booking otomatis &mdash; formulir ini cuma menyusun pesan WhatsApp biar kamu nggak perlu ngetik manual. Setelah dikirim, mekanik yang balas langsung.</p>
+  <form class="service-card" id="bookingForm">
+    <div class="sc-row"><label>Nama</label><input type="text" id="bkName" placeholder="Nama kamu" required></div>
+    <div class="sc-row"><label>No. HP</label><input type="tel" id="bkPhone" placeholder="08xxxxxxxxxx" required></div>
+    <div class="sc-row"><label>Jenis Mobil</label><input type="text" id="bkCar" placeholder="Contoh: Suzuki Swift 2010" required></div>
+    <div class="sc-row"><label>Layanan</label>
+      <select id="bkService" required>
+        <option value="" disabled selected>Pilih layanan&hellip;</option>
+        <option>Diagnostik mesin mobil</option>
+        <option>Kelistrikan mobil</option>
+        <option>Penggantian oli</option>
+        <option>Perbaikan rem</option>
+        <option>Reparasi suspensi & setir</option>
+        <option>Pemasangan wiper blade</option>
+        <option>Pembersihan karburator</option>
+        <option>Pemeliharaan mobil</option>
+        <option>Pemeriksaan kendaraan</option>
+        <option>Penggantian baterai/aki</option>
+        <option>Penyetelan mesin otomatis</option>
+        <option>Reparasi kebocoran air</option>
+        <option>Reparasi mesin</option>
+        <option>Sistem pembuangan</option>
+        <option>Uji emisi mobil</option>
+        <option>Lainnya / belum tahu</option>
+      </select>
+    </div>
+    <div class="sc-row"><label>Rencana Tanggal</label><input type="date" id="bkDate"></div>
+    <div class="sc-row sc-row-wide"><label>Keluhan Tambahan</label><textarea id="bkNote" rows="3" placeholder="Ceritakan gejala lain (opsional)"></textarea></div>
+    <button type="submit" class="btn-signal big">Kirim ke WhatsApp ↗</button>
+  </form>
+</section>
+
+<section id="lokasi" class="section lokasi">
+  <p class="kicker">&#10022; MAU SERVIS?</p>
+  <h2>Datang langsung,<br><i>atau chat dulu.</i></h2>
+  <div class="info-tags">
+    <div class="tag-card"><span>Alamat</span><p>Perbutulan, Kec. Sumber,<br>Kabupaten Cirebon, Jawa Barat 45613</p></div>
+    <div class="tag-card"><span>Tutup Hari Ini</span><p>Pukul 16.30</p></div>
+    <div class="tag-card"><span>Telepon / WhatsApp</span><p>0881-0235-41340</p></div>
+  </div>
+  <div class="lokasi-cta">
+    <a class="btn-signal big" href="https://wa.me/62881023541340?text=Halo%20Setia%20Motor%2C%20saya%20ingin%20servis%20mobil." target="_blank" rel="noopener">Chat via WhatsApp ↗</a>
+    <a class="btn-outline" href="https://www.google.com/maps/search/?api=1&query=Setia%20Motor%20Bengkel%20Mobil%20Perbutulan%20Sumber%20Cirebon" target="_blank" rel="noopener">Lihat rute di Maps</a>
+  </div>
+  <div class="map-embed">
+    <iframe src="https://www.google.com/maps?q=Setia%20Motor%20Bengkel%20Mobil%20Perbutulan%20Sumber%20Cirebon&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Setia Motor di Google Maps"></iframe>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <b>SETIA MOTOR</b>
+  <span>Perbutulan, Kec. Sumber, Kabupaten Cirebon, Jawa Barat 45613</span>
+  <span>0881-0235-41340 &middot; 4,8&#9733; (40 ulasan Google)</span>
+</footer>
+
+<script src="script.js"></script>
+</body></html>
